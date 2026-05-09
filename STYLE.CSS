@@ -1,0 +1,18 @@
+.listcontainer {
+    list-style: none;
+    padding: 0;
+}
+
+.listcontainer li {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background: rgb(119, 112, 126);
+    border-radius: 5px;
+}
+
+.listcontainer li span:first-child {
+    flex: 1;
+}
